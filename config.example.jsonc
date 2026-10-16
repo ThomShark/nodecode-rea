@@ -1,0 +1,18 @@
+// The `rea' section of ~/.nodecode/config.jsonc, as this cell reads it.
+// Nodecode does not read this file; it is here to copy from.
+{
+  "rea": {
+    // the rea CLI to run; empty = rea on PATH, else npx
+    "bin": "",
+    // what npx fetches when no rea is installed
+    "version": "latest",
+    // GHIDRA_INSTALL_DIR the server starts with; empty = detected
+    "ghidra_dir": "",
+    // JAVA_HOME the server starts with; empty = the newest JDK under /usr/lib/jvm
+    "java_home": "",
+    // keep mcp.servers.rea pointing at REA
+    "register": true,
+    // how long one REA tool call may take
+    "timeout_seconds": 180
+  }
+}
